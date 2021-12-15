@@ -217,6 +217,11 @@ $appPadding: 1rem;
 
   &_btn {
     @include button(primary);
+
+    @media (max-width:280px) {
+      font-size: 1rem;
+      padding: 0.75rem 1.2rem;
+    }
   }
 }
 

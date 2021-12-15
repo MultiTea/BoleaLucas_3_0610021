@@ -179,6 +179,12 @@ body, html {
   text-decoration: none;
   color: inherit;
 }
+@media (max-width: 280px) {
+  .cta_btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.2rem;
+  }
+}
 
 .tutorial {
   padding: 2rem 1rem;
